@@ -75,9 +75,14 @@ a:visited {
 .key-words {
     color: yellow;
 }
-
+.about-me {
+    background: url("source/back_image_info.jpg") 50% fixed;
+}
+.social-media {
+    background: url("source/back_image_network.jpg") 50% fixed;
+}
 .work-exp {
-
+    background: url("source/back_image_about.jpg") 50% fixed;
 }
 .card {
     padding: 15px 20px;
@@ -154,7 +159,6 @@ a:visited {
     display: -ms-flexbox;
     display: flex;
     -webkit-align-self: center;
-    -ms-flex-item-align: center;
     align-self: center;
     font-size: 1rem;
     line-height: 1;
