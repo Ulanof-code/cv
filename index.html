@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Nikolay's CV</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no"> <!-- МетаТэг позволяющий указать размер экрана и прочие "опции" для разных видов девайсов -->
+    <meta property="og:title" content="Уланов Николай: моё резюме"> <!-- МетаТэг компании Facebook, позволяющий выводить нужный заголовок при ссылке в соц сеть -->
+    <meta property="og:description" content="Резюме фронтенд-разработчика. Компетенции, социальные сети и связь со мной, всё это тут"> <!-- МетаТэг от Facebook: описание при ссылке в соц сеть -->
+    <meta property="og:image" content="source/avatar.jpg"> <!-- МетаТэг от Facebook позволяющий установить изображение для ссылки в соц сети  -->
+    <link rel="icon" href="source/favicon.png" type="image/png"> <!-- Установление маленькой иконки (favicon) во вкладке сайта в браузере -->
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <img src="source/avatar.jpg" class="avatar" alt="Моя фотография">
+            <h1 class="my-name">Николай <span class="key-words">Уланов</span></h1>
+            <p>Фронтенд-разработчик</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="card about-me">
+            <h2>Про меня</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="key-words">Q:</th>
+                        <th class="key-words">A:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Сколько лет?</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Откуда я?</td>
+                        <td>Ростов-на-Дону</td>
+                    </tr>
+                    <tr>
+                        <td>Образование?</td>
+                        <td>Среднее-специальное</td>
+                    </tr>
+                    <tr>
+                        <td>Семейное положение?</td>
+                        <td>Женат</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card social-media">
+            <h2>Социальные сети</h2>
+            <a href="https://www.instagram.com/iamnikolayulanovv/" target="_blank" class="key-words">Instagram</a>
+            |
+            <a href="https://github.com/Ulanof-code" target="_blank" class="key-words">GitHub</a>
+            |
+            <a href="https://twitter.com/NickolasUlanov?t=nv6JWY-i3YlwNlSKR3zBVw&s=09" target="_blank" class="key-words">Twitter</a>
+        </div>
+
+        <div class="card work-exp">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="key-words">Место:</th>
+                        <th class="key-words">Время:</th>
+                        <th class="key-words">Должность</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Just Coffee</td>
+                        <td>2019 - 2020</td>
+                        <td>Бариста</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                <tr>
+                    <td>Just Coffee</td>
+                    <td>2020 - н.в.</td>
+                    <td>Управляющий</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+            <form action="#">
+                <div class="row">
+                    <div class="form-group">
+                        <label>
+                            Ваше имя:
+                            <input type="text" id="name" placeholder="Введите ваше имя...">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            Ваш email:
+                            <input type="email" id="email" placeholder="Введите ваш email...">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <textarea rows="5" cols="30" id="text" placeholder="Введите ваше сообщение..."></textarea>
+                    </label>
+                </div>
+                <input class="btn submit" type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
